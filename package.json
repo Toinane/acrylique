@@ -1,0 +1,34 @@
+{
+  "name": "acrylique",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "./dist/acrylique.min.cjs",
+  "module": "./dist/acrylique.min.mjs",
+  "browser": "./dist/acrylique.min.js",
+  "scripts": {
+    "build": "node esbuild.js",
+    "lint": "eslint src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toinane/acrylique.git"
+  },
+  "keywords": [
+    "Color"
+  ],
+  "author": "Toinane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Toinane/acrylique/issues"
+  },
+  "homepage": "https://github.com/Toinane/acrylique#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "esbuild": "^0.14.39",
+    "eslint": "^8.15.0",
+    "eslint-plugin-import": "^2.26.0",
+    "typescript": "^4.6.4"
+  }
+}
